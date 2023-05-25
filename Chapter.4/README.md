@@ -89,4 +89,13 @@ Promise를 이용한 비동기 작업의 동기적 표현을 보여주는 두 �
 반복적인 내용을 함수화해 간결하게 표현했다.
 ```
 
+##### Example 4-16
+```bash
+Generator를 이용한 비동기 작업의 동기적 표현을 보여주는 예제이다.
+line6의 *가 바은 함수가 Generator함수이다. Generator함수를 실행하면 Iterator가 반환되는데, Iterator는 next라는 메서드를 가지고 있다.
+이 next메서드를 호출하면 Generator함수 내부에서 가장 먼저 등장하는 yield에서 함수 실행을 멈춘다. 
+이후 next메서드를 호출하면 멈춘 부분부터 다시 시작되어 yield에서 함수의 실행을 멈추게 된다.
+```
+
+
 
