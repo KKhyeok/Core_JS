@@ -50,6 +50,13 @@ return 없이도 클로저가 발행하는 경우를 보여주는 예제이다.
 
 ##### Example 5-8
 ```bash
-앞선 예제의 addEvenetListner의 쓰임새가 콜백 함수에 국한되지 않는 경우라면 반복을 줄이기 위해 외부로 분리하는 것이 나을 수 있다.
-따라서 fruit를 인자로 받아 출력하는 형태가 된다. 
+각 li를 클릭하면 클릭한 대상의 과일명이 아닌 [object MouseEvent]라는 값이 출력되는데,
+콜백 함수의 인자에 대한 제어권을 addEventListner가 가진 상태이며, addEvenetListner는 콜백 함수를 호출할 때 첫 번째 인자에
+'이벤트 객체'를 주입하기 떄문이고, bind메서드를 활용해 해결할 수 있다.
 ```
+
+##### Example 5-9
+```bash
+alertFruit함수 대신 alertFruitBuilder함수로 작성했다.
+이 함수 내부에서는 다시 익명함수를 반환하는데, 이 익명함수가 바로 기존의 alertFruit함수 이다.
+'''
