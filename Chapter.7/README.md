@@ -68,3 +68,7 @@ SuperClass의 인스턴스가 되지는 않으므로 앞서 소개한 두 방법
 위 코드들의 SubClass.prototype.constructor가 원래의 SubClass를 바라보도록한다.
 ```
 
+#### Example 7-12
+```bash
+빈 함수를 활용한 클래스 상속 및 추상화 방법
+```
