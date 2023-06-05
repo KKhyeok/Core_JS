@@ -49,3 +49,9 @@ Grade.prorotype에 요소를 포함하는 배열을 매칭 시킨경우 앞선 �
 내용이 복잡하지만 범용석 측면에서 괜찮은 방법이다.
 ```
 
+#### Example 7-9
+```bash
+더글라스크락포드가 제시해서 대중적으로 널리 알려진 방법으로, SubClass의 prototype에 직접 SuperClass의 인스턴스를 할당하는 대신 아무런 프로퍼티를 생성하지 않는 빈 생성자 함수를 하나 더
+만들어서 그 prototype이 SuperClass의 prototype을 바라보게끔 한 다음, SubClass의 prototype에는 Bridge의 인스턴스를 할당하게 하는 것이다.
+```
+
