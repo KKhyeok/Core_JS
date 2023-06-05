@@ -61,3 +61,10 @@ Grade.prorotype에 요소를 포함하는 배열을 매칭 시킨경우 앞선 �
 SuperClass의 인스턴스가 되지는 않으므로 앞서 소개한 두 방법보다 간단하면서 안전하다. 
 ```
 
+#### Example 7-11
+```bash
+위 세 가지 방법 모두 기본적인 상속에는 성공했지만 SubClass 인스턴스의 constructor는 여전히 SuperClass를 가리키는 상태이다.
+프로토타입 체인상에 가장 먼저 등장하는 SuperClass.prototype의 constructor에서 가리키는 대상, 즉 SuperClass가 출력될 뿐이다.
+위 코드들의 SubClass.prototype.constructor가 원래의 SubClass를 바라보도록한다.
+```
+
