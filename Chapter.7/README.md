@@ -38,3 +38,7 @@ Grade.prorotype에 요소를 포함하는 배열을 매칭 시킨경우 앞선 �
 따라서 Square를 Rectangle의 하위클래스로 삼을 수 있다. 
 ```
 
+#### Example 7-7
+```bash
+인자 height자리에 width 를 전달하고, 메서드를 상속하기 위해 Square의 프로토타입 객체에 Rectangle의 인스턴스를 부여했다. 
+```
