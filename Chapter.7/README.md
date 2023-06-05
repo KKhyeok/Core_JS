@@ -55,3 +55,9 @@ Grade.prorotype에 요소를 포함하는 배열을 매칭 시킨경우 앞선 �
 만들어서 그 prototype이 SuperClass의 prototype을 바라보게끔 한 다음, SubClass의 prototype에는 Bridge의 인스턴스를 할당하게 하는 것이다.
 ```
 
+#### Example 7-10
+```bash
+마지막으로 Object.create를 이용한 방법으로 SubClass의 prototype의 __proto__가 SuperClass의 prototpye을 바라보되, 
+SuperClass의 인스턴스가 되지는 않으므로 앞서 소개한 두 방법보다 간단하면서 안전하다. 
+```
+
