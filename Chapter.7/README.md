@@ -84,3 +84,8 @@ Object.create를 활용한 클래스 상속 및 추상화 방법
 매번 "SuperClass.prototype.method.apply(this, arguments)"로 해결하는 것은 번거로운 방식이다.
 본 예제는 다른 객체지향 언어들의 클래스 문법인 super를 모방한 방법이다.
 ```
+
+#### Example 7-15
+```bash
+ES6에서 본격적으로 클래스 문법이 도입되었는데, ES5 체계에서 생성자 함수 및 프로토타입과 ES6의 문법을 비교한 예제이다.
+```
