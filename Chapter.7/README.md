@@ -77,3 +77,10 @@ SuperClass의 인스턴스가 되지는 않으므로 앞서 소개한 두 방법
 ```bash
 Object.create를 활용한 클래스 상속 및 추상화 방법
 ```
+
+#### Example 7-14
+```bash
+때로는 하위 클래스의 메서드에서 상위 클래스의 메서드 실행 결과를 바탕으로 추가적인 작업을 수행하고 싶을 때가 있다.
+매번 "SuperClass.prototype.method.apply(this, arguments)"로 해결하는 것은 번거로운 방식이다.
+본 예제는 다른 객체지향 언어들의 클래스 문법인 super를 모방한 방법이다.
+```
